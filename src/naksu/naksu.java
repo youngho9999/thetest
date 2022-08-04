@@ -7,9 +7,16 @@ import java.util.stream.Stream;
 public class naksu {
     public static void main(String[] args) {
 
-        Boolean[] arr= {true, false, false, false};
-        long count = Stream.of(arr).filter((i) -> i).count();
-        System.out.println(count);
+        int t =1;
+        int i = 0;
+        if(t>i) {
+            System.out.println("111111");
+            t=i;
+        }
+        else if(t==i) {
+            System.out.println("222222222");
+        }
+
     }
 
 }
